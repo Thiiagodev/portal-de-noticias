@@ -28,4 +28,7 @@
 
   border-inline: none;
   /* tira um pedaço da linha na direito e na esquerda, sempre na horizontal pois é inline */
+
+  justify-content: space-between;
+  /* justify contente pega o conteudo e da espaço entre eles, se alinham */
 }

@@ -1,0 +1,24 @@
+/* utility-first : quando eu tenhu uma classe, que vai fazr apenas uma coisa.*/
+
+.grid {
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
+}
+
+.grid-cols-2 {
+  grid-template-columns: 1fr 1fr;
+  /* Aqui está o que cada parte significa:
+
+grid-template-columns: define quantas colunas haverá no grid e qual será a largura de cada uma. 
+
+1fr 1fr: cria duas colunas de igual largura, usando a unidade fr (fraction), que representa uma fração do espaço disponível.      
+
+No caso de 1fr 1fr, cada coluna ocupará metade da largura disponível no contêiner. Isso significa que o grid será dividido em duas colunas de tamanho igual. Por exemplo, se a largura do contêiner é de 100%, cada coluna ocupará 50% desse espaço. */
+}
+
+.gap-16 {
+  gap: 16px;
+}
