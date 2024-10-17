@@ -22,3 +22,19 @@ No caso de 1fr 1fr, cada coluna ocupará metade da largura disponível no contê
 .gap-16 {
   gap: 16px;
 }
+
+.text-2xl {
+  font: var(--h1);
+}
+
+.text-xl {
+  font: var(--h2);
+}
+
+.text-lg {
+  font: var(--h3);
+}
+
+.text-sm {
+  font: var(--text-sm);
+}
