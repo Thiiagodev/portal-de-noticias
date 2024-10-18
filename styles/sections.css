@@ -15,6 +15,7 @@
     content: "";
     position: absolute;
     inset: 0;
+    /* inset atalho para definir top,riht, bottom e left simultaniamente */
     top: 50%;
     background: linear-gradient(180deg, transparent 0%, #020617 100%);
   }
@@ -27,7 +28,8 @@
     &:has(.text-lg) {
       padding: 12px;
     }
-    /* vai observar apenas as text-lg e vai adicionar o padding de 12px */
+    /*o seletor :has é uma pseudo classe que permite selecionar um elemento se ele contiver outro elemento especifico dentro de si
+     vai observar apenas as text-lg e vai adicionar o padding de 12px */
 
     h2 {
       margin-top: 8px;
