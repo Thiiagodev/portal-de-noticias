@@ -23,6 +23,10 @@ No caso de 1fr 1fr, cada coluna ocupará metade da largura disponível no contê
   gap: 16px;
 }
 
+.gap-32 {
+  gap: 32px;
+}
+
 .text-2xl {
   font: var(--h1);
 }
